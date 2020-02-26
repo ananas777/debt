@@ -86,7 +86,7 @@ function numberToText($number) {
     }
 
     if ($number == 0) {
-      $text[] = '0 рублей';
+      $text[] = 'недостаточно средств';
     }
 
     $text = makeFirstLetterUppercase(implode($text, ' ') . " ({$number})");
